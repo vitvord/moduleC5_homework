@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 5px;
+  width: 35px;
+}
+.input {
+  display: inline;
+  flex-direction: column;
+  margin: 5px;
+}
+.button {
+  width: 10em;
+  margin: 10px;
+}
+
+#result {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+.imageplace {
+  width: 220px;
+  margin: 10px;
+}

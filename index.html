@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <script src="src/index.js" defer></script>
+    <label
+      >A page number (1-10):
+      <input id="pageNumber" pattern="\d\d?" value="1" />
+    </label>
+    <br />
+    <label
+      >Photos per page (1-10):
+      <input id="photoLimit" pattern="\d\d?" value="5" />
+    </label>
+    <br />
+    <input id="submit" type="submit" value="Submit" class="button" />
+    <div id="result"></div>
+  </body>
+</html>
